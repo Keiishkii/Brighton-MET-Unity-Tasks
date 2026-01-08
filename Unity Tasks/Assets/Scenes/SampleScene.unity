@@ -160,6 +160,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 156748611}
+  - component: {fileID: 156748614}
+  - component: {fileID: 156748613}
+  - component: {fileID: 156748612}
   m_Layer: 0
   m_Name: Lesson 2
   m_TagString: Untagged
@@ -182,6 +185,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 789157462}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &156748612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156748610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf7a6222eb034a0e927e8b038e9bd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &156748613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156748610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb481ff4d9d670e1d8729815c6e534a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &156748614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156748610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522d7a38577fd25f680000166d3ffdc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +591,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   taskOutput: 
+  integerInputOne: 17
+  integerInputTwo: 32
+  integerOutput: 0
+  stringInputOne: Brighton
+  stringInputTwo: MET
+  stringOutput: 
 --- !u!114 &1795912283
 MonoBehaviour:
   m_ObjectHideFlags: 0
