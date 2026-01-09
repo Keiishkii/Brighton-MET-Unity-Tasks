@@ -209,6 +209,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb481ff4d9d670e1d8729815c6e534a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  taskOutput: 
+  enemyPresent: 0
+  playerHealth: 100
+  stepsTaken: 0
 --- !u!114 &156748614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,6 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 522d7a38577fd25f680000166d3ffdc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHealth: 100
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,6 +561,7 @@ GameObject:
   - component: {fileID: 1795912284}
   - component: {fileID: 1795912283}
   - component: {fileID: 1795912282}
+  - component: {fileID: 1795912285}
   m_Layer: 0
   m_Name: Lesson 1
   m_TagString: Untagged
@@ -626,6 +632,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   taskCompleted: 0
+--- !u!114 &1795912285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795912280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66db9a792767eb1bba743870007c1b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskOutput: The player did not have a weapon to fight the snake, and died.
+  treasureRetrieved: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -6,7 +6,13 @@
                 <ui:Label text="Task 2 - Functions" name="TaskTitleLabel" style="color: rgb(214, 214, 214); -unity-font-style: bold; font-size: 18px; margin-left: 10px;" />
             </ui:VisualElement>
             <ui:VisualElement name="TaskDescription" style="flex-grow: 1; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
-                <ui:Label text="Right now you have only been modifying code within the Update function. Functions can be used to organise code, save on code repatition, and in Unitys case be automatically called on specific events. More on this last one later! " name="TaskDescriptionLabel" style="font-size: 14px; color: rgb(215, 215, 215); white-space: normal;" />
+                <ui:Label text="Right now you have only been modifying code within the Update function. Functions can be used to organise code, save on code repatition, and in Unitys case be automatically called on specific events. More on this last one later! &#10;&#10;For now below are some buttons, these are hooked up to some functions within the script!" name="TaskDescriptionLabel" style="font-size: 14px; color: rgb(215, 215, 215); white-space: normal;" />
+                <ui:VisualElement name="Padding" style="flex-grow: 1; background-color: rgb(176, 176, 176); height: 2px; margin-top: 7px; margin-right: 0; margin-bottom: 7px; margin-left: 0;" />
+                <ui:Label text="Label" name="VariableDisplayLabel" style="color: rgb(215, 215, 215);" />
+                <ui:VisualElement name="Padding" style="flex-grow: 1; background-color: rgb(176, 176, 176); height: 2px; margin-top: 7px; margin-right: 0; margin-bottom: 7px; margin-left: 0;" />
+                <ui:Button text="Walk" name="WalkButton" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;" />
+                <ui:Button text="Heal" name="HealButton" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;" />
+                <ui:Button text="Attack" name="AttackButton" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;" />
             </ui:VisualElement>
             <ui:VisualElement name="TaskCompletionContainer" style="flex-grow: 0; border-top-width: 2px; border-left-color: rgb(41, 41, 41); border-right-color: rgb(41, 41, 41); border-top-color: rgb(41, 41, 41); border-bottom-color: rgb(41, 41, 41); background-color: rgb(58, 58, 58);">
                 <ui:Label text="Task Completed:" name="TaskCompletedLabel" style="font-size: 14px; color: rgba(215, 215, 215, 0.84); -unity-text-align: upper-right; border-top-width: 0; padding-top: 2px; padding-right: 6px; padding-bottom: 2px; padding-left: 6px;" />
