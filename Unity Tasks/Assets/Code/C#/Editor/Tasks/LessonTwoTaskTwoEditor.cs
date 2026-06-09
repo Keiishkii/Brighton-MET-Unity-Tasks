@@ -51,7 +51,7 @@ public class LessonTwoTaskTwoEditor : Editor
     
     private VisualElement LoadVisualTreeAssetAndGetRoot()
     {
-        VisualTreeAsset taskUI = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Code/UXML/Lesson 2 Task 2.uxml"); 
+        VisualTreeAsset taskUI = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Code/UXML/Week 1/Lesson 2 Task 2.uxml"); 
         _root = taskUI.CloneTree();
         
         return _root;
